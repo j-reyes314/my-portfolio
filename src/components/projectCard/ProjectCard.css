@@ -1,0 +1,13 @@
+.card {
+    min-height: 3em;
+    min-width: 3em;
+    background-color: cadetblue;
+    margin: 10%;
+    padding: 5%;
+    border-radius: .5em;
+    border: white .5em solid ;
+}
+
+.slogan {
+    
+}

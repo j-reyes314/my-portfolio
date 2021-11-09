@@ -1,3 +1,19 @@
+:root {
+  --blue: #6495ed;
+  --white: #faf0e6;
+  --offWhite: rgb(255,255,220);
+  --lightBlue: rgb(44, 173, 233);
+  --green: rgb(48, 128, 74);
+  --yellow: rgb(191, 194, 27);
+  --orange: rgb(201, 152, 19);
+  --red: rgb(240, 75, 10);
+}
+
+.body {
+  height: 100%;
+}
+
+
 .App {
   text-align: center;
 }
@@ -14,7 +30,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: 	var(--offWhite);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +51,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+p {
+  color: black;
+}
+
+.ribbon {
+  position: absolute;
+  left: 3em;
+  height: 100%;
+}
+
+.blue {
+  display: inline-block;
+  background-color: var(--lightBlue);
+  width: 2em;
+  height: 100%;
+}
+
+.green {
+  display: inline-block;
+  background-color: var(--green);
+  width: 1.5em;
+  height: 100%;
+}
+.yellow {
+  display: inline-block;
+  background-color: var(--yellow);
+  width: 1em;
+  height: 100%;
+}
+.orange {
+  display: inline-block;
+  background-color: var(--orange);
+  width: 2em;
+  height: 100%;
+}
+.red {
+  display: inline-block;
+  background-color: var(--red);
+  width: 1em;
+  height: 100%;
 }
