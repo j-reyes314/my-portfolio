@@ -4,7 +4,8 @@ import GitHubButton from 'react-github-btn'
 export default function Contact(props) {
     return (
         <>
-            <h5 style={{color: "black"}}>Say hello!</h5>
+            <h5 style={{color: "black"}}>Contact me</h5>
+            <p>I'd love to meet you. Why not send an email?</p>
             <form action="">
                 <input type="text" name="name" placeholder ="Name"/>
                 <input type="text" name ="email" placeholder ="Email"/>
@@ -15,7 +16,7 @@ export default function Contact(props) {
 
 
 
-            <GitHubButton href="https://github.com/j-reyes314">Follow me!</GitHubButton>
+            <GitHubButton href="https://github.com/j-reyes314"></GitHubButton>
         </>
     )
 }

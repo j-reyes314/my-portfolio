@@ -16,6 +16,9 @@
 
 .App {
   text-align: center;
+  background-color: 	var(--offWhite);
+  min-width: 100%;
+  /* z-index: 100; */
 }
 
 .App-logo {
@@ -31,7 +34,7 @@
 
 .App-header {
   background-color: 	var(--offWhite);
-  min-height: 100vh;
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,40 +60,60 @@ p {
   color: black;
 }
 
+.body{
+  position: relative;
+  z-index: 1000;
+  left: 18em;
+  width: 80%;
+}
+
+.about {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+}
+
 .ribbon {
-  position: absolute;
+  position: fixed;
   left: 3em;
+  /* top: 3px; */
   height: 100%;
+  z-index: 50;
 }
 
 .blue {
   display: inline-block;
   background-color: var(--lightBlue);
-  width: 2em;
+  width: 4em;
   height: 100%;
 }
 
 .green {
   display: inline-block;
   background-color: var(--green);
-  width: 1.5em;
+  width: 3em;
   height: 100%;
 }
 .yellow {
   display: inline-block;
   background-color: var(--yellow);
-  width: 1em;
+  width: 2em;
   height: 100%;
 }
 .orange {
   display: inline-block;
   background-color: var(--orange);
-  width: 2em;
+  width: 4em;
   height: 100%;
 }
 .red {
   display: inline-block;
   background-color: var(--red);
-  width: 1em;
+  width: 2em;
   height: 100%;
+}
+
+.contact {
+  
+  cursor: pointer;
 }
