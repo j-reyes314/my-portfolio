@@ -11,6 +11,12 @@
 
 .body {
   height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+h1 {
+  font-size: 4em;
 }
 
 
@@ -18,6 +24,7 @@
   text-align: center;
   background-color: 	var(--offWhite);
   min-width: 100%;
+  min-height: 100%;
   /* z-index: 100; */
 }
 
@@ -65,12 +72,28 @@ p {
   z-index: 1000;
   left: 18em;
   width: 80%;
+  margin-left: 1em;
+}
+
+.intro {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about {
-  width: 80%;
+  /* width: 80%;
   text-align: center;
-  margin: auto;
+  margin: auto; */
+  text-align: left;
+  margin-left: 1em;
+  height: 50vh;
+}
+
+.portfolio {
+  text-align: left;
+  height: 50vh;
 }
 
 .ribbon {
