@@ -1,19 +1,17 @@
 .container {
-    /* min-height: 10em;
-    min-width: 30%; */
-    /* max-width: 30%; */
+    min-width: 30%;
+    min-height: 300px;
+    padding: .2em;
     background-color: white;
-    /* margin: 10%;
-    padding: 5%; */
     border-radius: .75em;
     border: white .75em solid ;
-    float: right;
+    /* float: right; */
 }
 
 
 .card {
     min-height: 90%;
-    min-width: 30%;
+    min-width: 70%;
     /* max-width: 30%; */
     /* background-color: cadetblue; */
     /* margin: 10%; */
@@ -26,7 +24,7 @@
 }
 
 .card :hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     
 }
 

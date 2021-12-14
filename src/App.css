@@ -12,7 +12,7 @@
 .body {
   height: 100%;
   overflow-x: hidden;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
 }
 
 h1 {
@@ -76,7 +76,7 @@ p {
 }
 
 .intro {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,7 +93,7 @@ p {
 
 .portfolio {
   text-align: left;
-  height: 50vh;
+  height: 70vh;
 }
 
 .ribbon {

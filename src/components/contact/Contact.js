@@ -57,7 +57,7 @@ export default function Contact(props) {
                         <label>Message</label>
                     </div>
 
-                    <div className='styled-input wide'>
+                    <div className='styled-input wide btn'>
                         <input type="submit" value="submit" />
                     </div>
 

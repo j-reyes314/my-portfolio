@@ -49,7 +49,7 @@ function App() {
             
           <p 
             style={{ 
-              color: "white",
+              color: "black",
               transform: "matrix(1, -0.20, 0, 1, 0, 0)",
               msTransform: "matrix(1, -0.20, 0, 1, 0, 0)",
               WebkitTransform: "matrix(1, -0.20, 0, 1, 0, 0)",
@@ -81,11 +81,11 @@ function App() {
         <div className="portfolio">
 
           <h1 style ={{color: "black"}}>My Portfolio</h1>
-          <div style={{width: "100%", display:  'grid', gridTemplateColumns: "repeat(3,1fr)", gap: '15px'}}>
+          <div style={{width: "99%", display: 'grid', gridTemplateColumns: "repeat(3,1fr)", gap: '18px'}}>
             
             <ProjectCard message ="Check out the Weather!" clr ={0} link ="https://j-reyes314.github.io/my-weather-app/"/>
             <ProjectCard message ="Figure out the fruit with Machine Learning!" clr ={1} link ="https://github.com/j-reyes314/Project_Examples/blob/main/Fruits_Logistic_Regression.ipynb"/>
-            <ProjectCard message ="Check out this website!" clr={2} link ="https://github.com/ChrisEspinal/my-group-project2"/>
+            <ProjectCard message ="Check out this code!" clr={2} link ="https://github.com/ChrisEspinal/my-group-project2"/>
           
           </div>
 
